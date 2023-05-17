@@ -6,4 +6,4 @@ def palindrom(s):
         return "Не палиндром"
     return palindrom(s[1: -1])
 
-print(palindrom(s))
+print(palindrom(len(s)))
